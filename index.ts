@@ -1,5 +1,5 @@
-function one(variable: any, object: object | undefined) {
-  return object ? object[variable] : variable
+function one(variable: any, object: object | [] | undefined) {
+  return object ? (object as any)[variable] : variable
 }
 
 async function asyncForEach(array: [] | any[], callback: any) {

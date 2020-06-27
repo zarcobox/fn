@@ -21,3 +21,28 @@ test('one: switches object keys and return values', () => {
   expect(five).toBe(undefined)
 
 })
+
+test('one: it works with arrays', () => {
+
+  const translate = [
+    'zero',
+    'um',
+    'dois',
+    'três'
+  ]
+
+  const zero = f.one(0, translate)
+  const one = f.one(1, translate)
+  const two = f.one(2, translate)
+  const three = f.one(3, translate)
+  const four = f.one(4, translate)
+  const five = f.one(5, {})
+
+  expect(zero).toBe('zero')
+  expect(one).toBe('um')
+  expect(two).toBe('dois')
+  expect(three).toBe('três')
+  expect(four).toBe(undefined)
+  expect(five).toBe(undefined)
+
+})
