@@ -1,0 +1,45 @@
+{
+  "name": "@zarcobox/fn",
+  "version": "0.0.1",
+  "description": "Practical functions for daily usage.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "helper",
+    "helpers",
+    "function",
+    "functions",
+    "fn",
+    "methods",
+    "util",
+    "helper-functions",
+    "practical-functions"
+  ],
+  "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zarcobox/fn.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "coveralls": "^3.1.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/zarcobox/fn/issues"
+  },
+  "homepage": "https://github.com/zarcobox/fn#readme"
+}
