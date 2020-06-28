@@ -1,6 +1,6 @@
 {
   "name": "@zarcobox/fn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Practical functions for daily usage.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,8 +23,7 @@
   "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
